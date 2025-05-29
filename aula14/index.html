@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Div e Span</title>
+    <style>
+        #topo {
+            background: blue;
+        }
+        #conteudo {
+            background: red;
+        }
+        #rodape {
+            background: green;
+        }
+        .produto {
+            background: gray;
+            margin: 10px;
+        }
+        #assinatura {
+            background: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <!-- tag div é de bloco-->
+    <!-- tag span é inline-->
+
+    <div id="topo">
+        <img src="https://omeugestor.com/wp-content/uploads/2019/09/amazon-prime-700x405.png" width="200">
+
+        <ul>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+
+    <div id="conteudo">
+        <div  class="produto">
+            Produto 1
+        </div>
+
+        <div class="produto">
+            Produto 2
+        </div>
+
+        <div class="produto">
+            Produto 3
+        </div> <!-- ocupa todo o espaçamento do contéudo-->
+    </div>
+
+    <div id="rodape">
+        Todos os direitos reservados
+    </div>
+
+    <span id="assinatura">
+        Alisson
+    </span>
+
+    <span>
+        Miranda
+    </span> <!-- do tipo inline-->
+</body>
+</html>
